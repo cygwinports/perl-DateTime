@@ -2,9 +2,11 @@ CPAN_AUTHOR=drolsky
 inherit perl
 
 NAME="perl-DateTime"
-VERSION=1.03
+VERSION=1.19
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl date/time object class"
 DESCRIPTION="DateTime is a class for the representation of date/time
 combinations, and is part of the Perl DateTime project."
+
+DIFF_EXCLUDES="_build"
